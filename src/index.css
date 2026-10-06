@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+/* Tokens de la guía visual (sección 8 de la especificación) */
+@theme {
+  --font-sans: 'Inter Variable', system-ui, sans-serif;
+
+  --color-primario: #2f7d32;
+  --color-primario-oscuro: #1b5e20;
+  --color-primario-suave: #e8f3e8;
+  --color-acento: #f2a900;
+  --color-acento-suave: #fff4d6;
+  --color-frio: #0277bd;
+  --color-frio-suave: #e3f2fb;
+  --color-formula: #c62828;
+  --color-formula-suave: #fdecec;
+  --color-fondo: #f7f6f2;
+  --color-superficie: #ffffff;
+  --color-texto: #1f2933;
+  --color-texto-suave: #5b6472;
+  --color-borde: #e2ded4;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-fondo text-texto font-sans antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-bold tracking-tight;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-acento);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .contenedor {
+    @apply mx-auto w-full max-w-[1200px] px-4;
+  }
+  .tarjeta {
+    @apply rounded-lg border border-borde bg-superficie;
+  }
+  .campo {
+    @apply min-h-12 w-full rounded-lg border border-[#b9b3a6] bg-white px-3.5 text-base text-texto placeholder:text-[#8a8f98] focus:border-primario focus:outline-none focus:ring-2 focus:ring-primario/30;
+  }
+  .etiqueta {
+    @apply mb-1.5 block text-sm font-semibold;
+  }
+  .error-campo {
+    @apply mt-1 text-sm font-medium text-formula;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

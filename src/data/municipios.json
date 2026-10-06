@@ -1,0 +1,12 @@
+[
+  { "id": "ubate", "nombre": "Ubaté", "departamento": "Cundinamarca", "tarifaBase": 12000, "tarifaKg": 150, "diasEntrega": 2 },
+  { "id": "simijaca", "nombre": "Simijaca", "departamento": "Cundinamarca", "tarifaBase": 14000, "tarifaKg": 170, "diasEntrega": 2 },
+  { "id": "zipaquira", "nombre": "Zipaquirá", "departamento": "Cundinamarca", "tarifaBase": 10000, "tarifaKg": 130, "diasEntrega": 1 },
+  { "id": "sopo", "nombre": "Sopó", "departamento": "Cundinamarca", "tarifaBase": 11000, "tarifaKg": 140, "diasEntrega": 1 },
+  { "id": "facatativa", "nombre": "Facatativá", "departamento": "Cundinamarca", "tarifaBase": 15000, "tarifaKg": 180, "diasEntrega": 2 },
+  { "id": "chiquinquira", "nombre": "Chiquinquirá", "departamento": "Boyacá", "tarifaBase": 16000, "tarifaKg": 190, "diasEntrega": 3 },
+  { "id": "tunja", "nombre": "Tunja", "departamento": "Boyacá", "tarifaBase": 18000, "tarifaKg": 210, "diasEntrega": 3 },
+  { "id": "paipa", "nombre": "Paipa", "departamento": "Boyacá", "tarifaBase": 20000, "tarifaKg": 230, "diasEntrega": 3 },
+  { "id": "duitama", "nombre": "Duitama", "departamento": "Boyacá", "tarifaBase": 21000, "tarifaKg": 240, "diasEntrega": 4 },
+  { "id": "sogamoso", "nombre": "Sogamoso", "departamento": "Boyacá", "tarifaBase": 23000, "tarifaKg": 260, "diasEntrega": 4 }
+]

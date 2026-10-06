@@ -1,0 +1,5 @@
+[
+  { "id": "u1", "nombre": "Carlos Rojas", "correo": "carlos@agrovita.test", "rol": "comprador", "detalle": "Finca La Esperanza · Ubaté" },
+  { "id": "u2", "nombre": "AgroInsumos Sabana", "correo": "ventas@agrovita.test", "rol": "vendedor", "vendedorId": "v1", "detalle": "AgroInsumos Sabana S.A.S." },
+  { "id": "u3", "nombre": "Administrador", "correo": "admin@agrovita.test", "rol": "admin", "detalle": "Equipo AgroVita" }
+]

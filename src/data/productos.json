@@ -1,0 +1,162 @@
+[
+  {
+    "id": "p01", "vendedorId": "v1", "nombre": "Concentrado lechero 18 % proteína", "categoria": "concentrados", "especies": ["bovino"],
+    "presentacion": "Bulto 40 kg", "precio": 96000, "stock": 120, "pesoKg": 40, "registroIca": "ICA-DEMO-0001",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p01.svg"],
+    "descripcion": "Alimento balanceado para vacas en producción de leche. Apoya la producción y la condición corporal en pastoreo.",
+    "composicion": "Proteína mín. 18 %, grasa mín. 3 %, fibra máx. 10 %, humedad máx. 13 %.",
+    "modoUso": "Suministrar 1 kg por cada 3 litros de leche producidos, repartido en los ordeños.", "estado": "aprobado"
+  },
+  {
+    "id": "p02", "vendedorId": "v1", "nombre": "Concentrado levante terneras", "categoria": "concentrados", "especies": ["bovino"],
+    "presentacion": "Bulto 40 kg", "precio": 89000, "stock": 60, "pesoKg": 40, "registroIca": "ICA-DEMO-0002",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p02.svg"],
+    "descripcion": "Alimento para terneras desde el destete hasta los 12 meses.",
+    "composicion": "Proteína mín. 16 %, grasa mín. 2,5 %, fibra máx. 12 %.",
+    "modoUso": "Entre 1 y 2 kg por animal al día según peso y calidad del forraje.", "estado": "aprobado"
+  },
+  {
+    "id": "p03", "vendedorId": "v2", "nombre": "Concentrado ceba bovina", "categoria": "concentrados", "especies": ["bovino"],
+    "presentacion": "Bulto 40 kg", "precio": 84000, "stock": 90, "pesoKg": 40, "registroIca": "ICA-DEMO-0003",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p03.svg"],
+    "descripcion": "Alimento energético para la etapa de engorde de bovinos de carne.",
+    "composicion": "Proteína mín. 14 %, grasa mín. 3 %, fibra máx. 12 %.",
+    "modoUso": "Suministrar entre el 0,5 % y el 1 % del peso vivo al día.", "estado": "aprobado"
+  },
+  {
+    "id": "p04", "vendedorId": "v2", "nombre": "Suplemento energético con melaza", "categoria": "concentrados", "especies": ["bovino", "equino"],
+    "presentacion": "Bulto 25 kg", "precio": 62000, "stock": 45, "pesoKg": 25, "registroIca": "ICA-DEMO-0004",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p04.svg"],
+    "descripcion": "Suplemento para épocas secas o de baja calidad del pasto.",
+    "composicion": "Energía metabolizable mín. 2,6 Mcal/kg, proteína mín. 10 %.",
+    "modoUso": "500 g a 1 kg por animal al día mezclado con el forraje.", "estado": "aprobado"
+  },
+  {
+    "id": "p05", "vendedorId": "v1", "nombre": "Concentrado pollo engorde", "categoria": "concentrados", "especies": ["aves"],
+    "presentacion": "Bulto 40 kg", "precio": 118000, "stock": 70, "pesoKg": 40, "registroIca": "ICA-DEMO-0005",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p05.svg"],
+    "descripcion": "Alimento completo para pollos de engorde en etapa de finalización.",
+    "composicion": "Proteína mín. 19 %, grasa mín. 4 %, fibra máx. 5 %.",
+    "modoUso": "Suministrar a voluntad desde el día 22 hasta el sacrificio.", "estado": "aprobado"
+  },
+  {
+    "id": "p06", "vendedorId": "v2", "nombre": "Concentrado porcino inicio", "categoria": "concentrados", "especies": ["porcino"],
+    "presentacion": "Bulto 40 kg", "precio": 124000, "stock": 40, "pesoKg": 40, "registroIca": "ICA-DEMO-0006",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p06.svg"],
+    "descripcion": "Alimento para lechones desde el destete hasta los 25 kg.",
+    "composicion": "Proteína mín. 20 %, grasa mín. 4 %, fibra máx. 4 %.",
+    "modoUso": "Suministrar a voluntad con agua limpia siempre disponible.", "estado": "aprobado"
+  },
+  {
+    "id": "p07", "vendedorId": "v1", "nombre": "Sal mineralizada 8 % fósforo", "categoria": "sales", "especies": ["bovino"],
+    "presentacion": "Bulto 40 kg", "precio": 112000, "stock": 150, "pesoKg": 40, "registroIca": "ICA-DEMO-0007",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p07.svg"],
+    "descripcion": "Mezcla mineral para bovinos en pastoreo. Ayuda a prevenir deficiencias de fósforo y calcio.",
+    "composicion": "Fósforo 8 %, calcio 14 %, magnesio, zinc, cobre, selenio, cobalto, yodo.",
+    "modoUso": "Ofrecer a voluntad en saladeros cubiertos. Consumo esperado: 80 a 100 g por animal al día.", "estado": "aprobado"
+  },
+  {
+    "id": "p08", "vendedorId": "v2", "nombre": "Sal mineralizada 6 % fósforo", "categoria": "sales", "especies": ["bovino"],
+    "presentacion": "Bulto 40 kg", "precio": 98000, "stock": 110, "pesoKg": 40, "registroIca": "ICA-DEMO-0008",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p08.svg"],
+    "descripcion": "Mezcla mineral de mantenimiento para ganado de cría y levante.",
+    "composicion": "Fósforo 6 %, calcio 12 %, magnesio, zinc, cobre, selenio.",
+    "modoUso": "Ofrecer a voluntad en saladeros cubiertos.", "estado": "aprobado"
+  },
+  {
+    "id": "p09", "vendedorId": "v1", "nombre": "Bloque multinutricional", "categoria": "sales", "especies": ["bovino"],
+    "presentacion": "Bloque 25 kg", "precio": 58000, "stock": 80, "pesoKg": 25, "registroIca": "ICA-DEMO-0009",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p09.svg"],
+    "descripcion": "Bloque para lamer con minerales, energía y nitrógeno no proteico.",
+    "composicion": "Melaza, urea, minerales y sal.",
+    "modoUso": "Colocar en el potrero protegido de la lluvia. Un bloque por cada 10 a 15 animales.", "estado": "aprobado"
+  },
+  {
+    "id": "p10", "vendedorId": "v2", "nombre": "Sal mineralizada equinos", "categoria": "sales", "especies": ["equino"],
+    "presentacion": "Bolsa 10 kg", "precio": 46000, "stock": 35, "pesoKg": 10, "registroIca": "ICA-DEMO-0010",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p10.svg"],
+    "descripcion": "Mezcla mineral formulada para caballos de trabajo.",
+    "composicion": "Calcio 12 %, fósforo 6 %, magnesio, zinc, cobre, selenio.",
+    "modoUso": "50 a 80 g por animal al día.", "estado": "aprobado"
+  },
+  {
+    "id": "p11", "vendedorId": "v1", "nombre": "Bebedero plástico", "categoria": "equipos", "especies": ["bovino", "equino"],
+    "presentacion": "Tanque 500 L", "precio": 385000, "stock": 12, "pesoKg": 18, "registroIca": "ICA-DEMO-0011",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p11.svg"],
+    "descripcion": "Bebedero en polietileno con flotador, resistente al sol.",
+    "composicion": "Polietileno de alta densidad con protección UV. Incluye válvula de flotador.",
+    "modoUso": "Instalar sobre terreno nivelado y conectar a la manguera de 1/2 pulgada.", "estado": "aprobado"
+  },
+  {
+    "id": "p12", "vendedorId": "v2", "nombre": "Impulsor de cerca eléctrica", "categoria": "equipos", "especies": ["bovino", "equino", "porcino"],
+    "presentacion": "Unidad · alcance 40 km", "precio": 640000, "stock": 8, "pesoKg": 4, "registroIca": "ICA-DEMO-0012",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p12.svg"],
+    "descripcion": "Energizador para cercas eléctricas conectado a la red de 110 V.",
+    "composicion": "Energía de salida 4 J. Incluye manual de instalación.",
+    "modoUso": "Instalar bajo techo con polo a tierra de mínimo 3 varillas.", "estado": "aprobado"
+  },
+  {
+    "id": "p13", "vendedorId": "v1", "nombre": "Comedero para aves", "categoria": "equipos", "especies": ["aves"],
+    "presentacion": "Tolva 10 kg", "precio": 42000, "stock": 40, "pesoKg": 2, "registroIca": "ICA-DEMO-0013",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p13.svg"],
+    "descripcion": "Comedero colgante de tolva con plato regulable.",
+    "composicion": "Plástico inyectado, altura regulable.",
+    "modoUso": "Colgar a la altura del lomo de las aves. Un comedero por cada 25 aves.", "estado": "aprobado"
+  },
+  {
+    "id": "p18", "vendedorId": "v3", "nombre": "Termo para vacunas", "categoria": "equipos", "especies": ["bovino", "porcino", "aves"],
+    "presentacion": "Capacidad 5 L", "precio": 95000, "stock": 15, "pesoKg": 2, "registroIca": "ICA-DEMO-0018",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p18.svg"],
+    "descripcion": "Termo con pilas de gel para transportar biológicos en campo.",
+    "composicion": "Poliuretano inyectado, incluye 2 pilas refrigerantes.",
+    "modoUso": "Congelar las pilas 12 horas antes de usar.", "estado": "aprobado"
+  },
+  {
+    "id": "p20", "vendedorId": "v3", "nombre": "Jeringa automática multidosis", "categoria": "equipos", "especies": ["bovino", "porcino"],
+    "presentacion": "Unidad 50 ml", "precio": 78000, "stock": 25, "pesoKg": 1, "registroIca": "ICA-DEMO-0020",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p20.svg"],
+    "descripcion": "Jeringa de dosis ajustable para vacunación y tratamientos masivos.",
+    "composicion": "Cuerpo metálico, dosis regulable de 1 a 5 ml.",
+    "modoUso": "Lavar y desinfectar después de cada jornada.", "estado": "aprobado"
+  },
+  {
+    "id": "p14", "vendedorId": "v3", "nombre": "Antibiótico inyectable bovino", "categoria": "medicamentos", "especies": ["bovino"],
+    "presentacion": "Frasco 100 ml", "precio": 68000, "stock": 35, "pesoKg": 1, "registroIca": "ICA-DEMO-0014",
+    "requiereFormula": true, "requiereFrio": false, "imagenes": ["/img/productos/p14.svg"],
+    "descripcion": "Antibiótico de amplio espectro. Venta exclusiva con fórmula de médico veterinario.",
+    "composicion": "Principio activo de ejemplo. Consulte la etiqueta del producto real.",
+    "modoUso": "Únicamente según la prescripción del médico veterinario. Respete el tiempo de retiro en leche y carne.", "estado": "aprobado"
+  },
+  {
+    "id": "p15", "vendedorId": "v3", "nombre": "Antiinflamatorio inyectable", "categoria": "medicamentos", "especies": ["bovino", "equino"],
+    "presentacion": "Frasco 50 ml", "precio": 54000, "stock": 20, "pesoKg": 1, "registroIca": "ICA-DEMO-0015",
+    "requiereFormula": true, "requiereFrio": false, "imagenes": ["/img/productos/p15.svg"],
+    "descripcion": "Antiinflamatorio no esteroideo de uso veterinario. Venta con fórmula.",
+    "composicion": "Principio activo de ejemplo. Consulte la etiqueta del producto real.",
+    "modoUso": "Únicamente según la prescripción del médico veterinario.", "estado": "aprobado"
+  },
+  {
+    "id": "p19", "vendedorId": "v1", "nombre": "Desparasitante oral", "categoria": "medicamentos", "especies": ["bovino"],
+    "presentacion": "Frasco 1 L", "precio": 72000, "stock": 20, "pesoKg": 1, "registroIca": "ICA-DEMO-0019",
+    "requiereFormula": false, "requiereFrio": false, "imagenes": ["/img/productos/p19.svg"],
+    "descripcion": "Desparasitante de administración oral para bovinos.",
+    "composicion": "Principio activo de ejemplo. Consulte la etiqueta del producto real.",
+    "modoUso": "Según indicaciones de la etiqueta.", "estado": "pendiente"
+  },
+  {
+    "id": "p16", "vendedorId": "v3", "nombre": "Vacuna bovina de ejemplo", "categoria": "biologicos", "especies": ["bovino"],
+    "presentacion": "Frasco 50 dosis", "precio": 85000, "stock": 18, "pesoKg": 1, "registroIca": "ICA-DEMO-0016",
+    "requiereFormula": false, "requiereFrio": true, "imagenes": ["/img/productos/p16.svg"],
+    "descripcion": "Biológico de ejemplo para prevención de enfermedades en bovinos. Requiere cadena de frío entre 2 y 8 °C.",
+    "composicion": "Biológico de ejemplo. Consulte la etiqueta del producto real.",
+    "modoUso": "Mantener refrigerado entre 2 y 8 °C. No congelar. Aplicar según el plan sanitario del veterinario.", "estado": "aprobado"
+  },
+  {
+    "id": "p17", "vendedorId": "v3", "nombre": "Vacuna aviar de ejemplo", "categoria": "biologicos", "especies": ["aves"],
+    "presentacion": "Frasco 1.000 dosis", "precio": 64000, "stock": 22, "pesoKg": 1, "registroIca": "ICA-DEMO-0017",
+    "requiereFormula": false, "requiereFrio": true, "imagenes": ["/img/productos/p17.svg"],
+    "descripcion": "Biológico de ejemplo para aves de corral. Requiere cadena de frío entre 2 y 8 °C.",
+    "composicion": "Biológico de ejemplo. Consulte la etiqueta del producto real.",
+    "modoUso": "Mantener refrigerado entre 2 y 8 °C. Aplicar en agua de bebida según el plan sanitario.", "estado": "aprobado"
+  }
+]

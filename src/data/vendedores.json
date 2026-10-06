@@ -1,0 +1,6 @@
+[
+  { "id": "v1", "razonSocial": "AgroInsumos Sabana S.A.S.", "nit": "900.100.001-1", "municipio": "Ubaté", "registroIca": "ICA-DEMO-V001", "estado": "aprobado", "calificacion": 4.7 },
+  { "id": "v2", "razonSocial": "Almacén El Ganadero", "nit": "900.100.002-2", "municipio": "Chiquinquirá", "registroIca": "ICA-DEMO-V002", "estado": "aprobado", "calificacion": 4.5 },
+  { "id": "v3", "razonSocial": "Veterinaria La Vega", "nit": "900.100.003-3", "municipio": "Zipaquirá", "registroIca": "ICA-DEMO-V003", "estado": "aprobado", "calificacion": 4.8 },
+  { "id": "v4", "razonSocial": "Distribuidora Boyacá Agro", "nit": "900.100.004-4", "municipio": "Tunja", "registroIca": "ICA-DEMO-V004", "estado": "pendiente", "calificacion": 0 }
+]
