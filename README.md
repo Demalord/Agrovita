@@ -2,10 +2,10 @@
 
 Prototipo de una tienda en línea de insumos agropecuarios (concentrados, sales mineralizadas, equipos, medicamentos y vacunas) que muestra el **precio final puesto en la finca** y solo vende productos y vendedores con **registro ICA**.
 
-Proyecto de clase · Ingeniería de Software · Universidad Agustiniana.
+Proyecto de clase · Innovación y Emprendimiento · Universidad Agustiniana.
 
-- **Prototipo en línea:** https://claude.ai/artifact/UTbjLfVaPfDeZJcq6wdhs9
-- **Wireframes, mockups y guía visual (PDF):** [`docs/AgroVita-wireframes-mockups-prototipo.pdf`](docs/AgroVita-wireframes-mockups-prototipo.pdf)
+- **Prototipo funcionando:** https://demalord.github.io/Agrovita/ (GitHub Pages, rama `gh-pages`)
+- **Wireframes y mockups (PDF):** [`docs/AgroVita-wireframes-mockups-prototipo.pdf`](docs/AgroVita-wireframes-mockups-prototipo.pdf)
 
 ## Correrlo en local
 
