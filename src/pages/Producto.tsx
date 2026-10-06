@@ -99,15 +99,15 @@ export default function Producto() {
 
           {/* 3 · Caja de precio */}
           <div className="tarjeta flex flex-col gap-3 p-5">
-            <div className="flex justify-between gap-3"><span>Precio unitario</span><span>{formatoCOP(producto.precio)}</span></div>
-            {cantidad > 1 && <div className="flex justify-between gap-3"><span>Subtotal ({cantidad} unidades)</span><span>{formatoCOP(subtotal)}</span></div>}
+            <div className="flex justify-between gap-3"><span>Precio unitario</span><span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(producto.precio)}</span></div>
+            {cantidad > 1 && <div className="flex justify-between gap-3"><span>Subtotal ({cantidad} unidades)</span><span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(subtotal)}</span></div>}
             <div className="flex justify-between gap-3">
               <span>Envío a {municipio?.nombre} · Vda. {ubicacion.vereda}{producto.requiereFrio ? ' (refrigerado)' : ''}</span>
-              <span>{formatoCOP(envio)}</span>
+              <span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(envio)}</span>
             </div>
             <div className="-mx-5 flex items-center justify-between gap-3 bg-acento-suave px-5 py-3">
               <span className="text-lg font-semibold">Total puesto en finca</span>
-              <span className="text-2xl font-bold">{formatoCOP(subtotal + envio)}</span>
+              <span className="whitespace-nowrap text-2xl font-bold">{formatoCOP(subtotal + envio)}</span>
             </div>
             <div className="flex flex-wrap gap-3 pt-1">
               <Cantidad valor={cantidad} onCambiar={setCantidad} max={producto.stock} />

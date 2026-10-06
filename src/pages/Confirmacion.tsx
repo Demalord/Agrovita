@@ -41,12 +41,12 @@ export default function Confirmacion() {
           {pedido.items.map((i) => (
             <li key={i.productoId} className="flex justify-between gap-3">
               <span>{i.cantidad} × {i.nombre} · {i.presentacion}</span>
-              <span>{formatoCOP(i.precio * i.cantidad)}</span>
+              <span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(i.precio * i.cantidad)}</span>
             </li>
           ))}
         </ul>
-        <div className="flex justify-between gap-3 text-texto-suave"><span>Envío a tu finca</span><span>{formatoCOP(pedido.envio)}</span></div>
-        <div className="-mx-6 flex justify-between gap-3 bg-acento-suave px-6 py-3 text-xl font-bold"><span>Total</span><span>{formatoCOP(pedido.total)}</span></div>
+        <div className="flex justify-between gap-3 text-texto-suave"><span>Envío a tu finca</span><span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(pedido.envio)}</span></div>
+        <div className="-mx-6 flex justify-between gap-3 bg-acento-suave px-6 py-3 text-xl font-bold"><span>Total</span><span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(pedido.total)}</span></div>
         <div className="flex flex-wrap items-center gap-2 pt-1">
           <span className="text-sm">Medio de pago:</span>
           <Chip tono="ica">{nombresMetodoPago[pedido.metodoPago]}</Chip>

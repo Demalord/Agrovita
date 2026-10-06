@@ -5,5 +5,10 @@ export function reiniciarDemo(): void {
   } catch {
     /* almacenamiento no disponible */
   }
-  window.location.assign('/');
+  if (import.meta.env.VITE_HASH_ROUTER === 'true') {
+    window.location.hash = '#/';
+    window.location.reload();
+  } else {
+    window.location.assign('/');
+  }
 }

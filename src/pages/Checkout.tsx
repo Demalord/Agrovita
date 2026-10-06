@@ -344,7 +344,7 @@ export default function Checkout() {
                       {producto.requiereFormula && <span className="text-formula"> · fórmula adjunta</span>}
                       {producto.requiereFrio && <span className="text-frio"> · envío refrigerado</span>}
                     </span>
-                    <span>{formatoCOP(producto.precio * cantidad)}</span>
+                    <span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(producto.precio * cantidad)}</span>
                   </li>
                 ))}
               </ul>

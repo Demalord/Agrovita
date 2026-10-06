@@ -35,7 +35,7 @@ export function Header() {
           <Logo claro />
           <form
             role="search"
-            className="order-last flex w-full gap-2 md:order-none md:w-auto md:flex-1"
+            className="order-3 flex w-full gap-2 md:order-none md:w-auto md:flex-1"
             onSubmit={(e) => {
               e.preventDefault();
               navigate(`/catalogo?q=${encodeURIComponent(q.trim())}`);
@@ -57,7 +57,7 @@ export function Header() {
           <button
             type="button"
             onClick={() => setUbicacionAbierta(true)}
-            className="flex min-h-12 items-center gap-2 rounded-lg px-2 text-left hover:bg-white/10"
+            className="order-4 -my-1 flex min-h-11 w-full items-center gap-2 rounded-lg px-1 text-left hover:bg-white/10 md:order-none md:my-0 md:min-h-12 md:w-auto md:px-2"
           >
             <IconoUbicacion className="shrink-0 text-acento" />
             <span className="leading-tight">
@@ -65,17 +65,19 @@ export function Header() {
               <span className="block text-sm font-semibold">{municipio?.nombre} · Vda. {ubicacion.vereda}</span>
             </span>
           </button>
-          <div className="ml-auto flex items-center gap-1 md:ml-0">
+          <div className="order-2 ml-auto flex items-center gap-1 md:order-none md:ml-0">
             <Link to={destinoCuenta} className="flex min-h-12 items-center gap-2 rounded-lg px-3 hover:bg-white/10">
               <IconoUsuario />
               <span className="hidden text-sm font-semibold sm:inline">{usuario ? usuario.nombre.split(' ')[0] : 'Ingresar'}</span>
             </Link>
-            <Link to="/carrito" className="relative flex min-h-12 items-center gap-2 rounded-lg px-3 hover:bg-white/10" aria-label={`Carrito, ${unidades} productos`}>
-              <IconoCarrito />
+            <Link to="/carrito" className="flex min-h-12 items-center gap-2 rounded-lg px-3 hover:bg-white/10" aria-label={`Carrito, ${unidades} productos`}>
+              <span className="relative">
+                <IconoCarrito />
+                {unidades > 0 && (
+                  <span className="absolute -right-2.5 -top-2.5 grid h-5 min-w-5 place-items-center rounded-full bg-acento px-1 text-xs font-bold text-texto">{unidades}</span>
+                )}
+              </span>
               <span className="hidden text-sm font-semibold sm:inline">Carrito</span>
-              {unidades > 0 && (
-                <span className="absolute right-0.5 top-1 grid h-5 min-w-5 place-items-center rounded-full bg-acento px-1 text-xs font-bold text-texto">{unidades}</span>
-              )}
             </Link>
           </div>
         </div>

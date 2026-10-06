@@ -17,16 +17,16 @@ export function ResumenPedido({ children, municipioId }: { children?: React.Reac
   return (
     <div className="tarjeta flex flex-col gap-3 p-5">
       <h2 className="text-xl">Resumen del pedido</h2>
-      <div className="flex justify-between gap-3"><span>Subtotal ({r.unidades} {r.unidades === 1 ? 'producto' : 'productos'})</span><span>{formatoCOP(r.subtotal)}</span></div>
+      <div className="flex justify-between gap-3"><span>Subtotal ({r.unidades} {r.unidades === 1 ? 'producto' : 'productos'})</span><span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(r.subtotal)}</span></div>
       {r.envio.grupos.map((g) => (
         <div key={g.vendedorId} className="flex justify-between gap-3 text-[15px]">
           <span>Envío {g.frio ? 'refrigerado ' : ''}{nombreVendedor(g.vendedorId)}</span>
-          <span>{formatoCOP(g.total)}</span>
+          <span className="shrink-0 whitespace-nowrap tabular-nums">{formatoCOP(g.total)}</span>
         </div>
       ))}
       <div className="-mx-5 flex items-center justify-between gap-3 bg-acento-suave px-5 py-3">
         <span className="text-lg font-semibold">Total puesto en finca</span>
-        <span className="text-2xl font-bold">{formatoCOP(r.total)}</span>
+        <span className="whitespace-nowrap text-2xl font-bold">{formatoCOP(r.total)}</span>
       </div>
       {children}
     </div>

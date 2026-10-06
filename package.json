@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
+    "build:pages": "tsc --noEmit && VITE_HASH_ROUTER=true vite build --base ./ --outDir dist-pages",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
